@@ -1,0 +1,15 @@
+export { default as PostCard } from "./PostCard";
+export { default as PostDetail } from "./PostDetail";
+export { default as Header } from "./Header";
+export { default as NavBar } from "./NavBar";
+export { default as HomeCard } from "./HomeCard";
+export { default as AboutCard } from "./AboutCard";
+export { default as ServicesCard } from "./ServicesCard";
+export { default as PricingCard } from "./PricingCard";
+export { default as TestimonialCard } from "./TestimonialCard";
+export { default as BlogCard } from "./BlogCard";
+export { default as contactCard } from "./ContactCard";
+export { default as FooterCard } from "./FooterCard";
+export { default as CommentForm } from "./CommentForm";
+export {default as Comments} from "./Comments";
+export {default as Loader} from "./Loader";
