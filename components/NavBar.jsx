@@ -3,21 +3,22 @@ import Button from "./Button";
 
 const NavBar = () => {
   let Links = [
-    { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
-    { name: "Blog", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "Home", link: "#Home" },
+    { name: "About", link: "#About" },
+    { name: "Service", link: "#Services" },
+    { name: "Pricing", link: "#Pricing" }, 
+    { name: "Contact", link: "#Contact" },
+    { name: "Blog", link: "/Blog" },
   ];
   let [open, setOpen] = useState(false);
   return (
     <div className="shadow-md w-full fixed  top-0 left-0 z-50">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div
-          className=" nav_text font-bold text-sm cursor-pointer flex items-center"
+          className="NavBarCard_Text nav_text font-bold text-sm cursor-pointer flex items-center"
         >
           <span className=" mr-1 pt-2"></span>
-          The_Crypto_Doyen
+          TheCryptoDoyen
         </div>
 
         <div

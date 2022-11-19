@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 html,
 body {
   padding: 0;
@@ -17,6 +19,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.NavBarCard_Text{
+  font-family: 'Silkscreen', cursive;
+ 
 }
 .homecard,
 .aboutcard {
@@ -61,4 +67,50 @@ a {
 }
 .testimonial_card{
   height: 60vh;
+}
+
+.home_animie_1{
+  animation-name: moveDown;
+  animation-duration: 4s;
+}
+@keyframes moveDown{
+  0%{
+         transform: translateY(-120px);
+         opacity: 0;
+  }
+  100%{
+         transform: translateY(0);
+         opacity: 1;  
+  }
+}
+
+.home_animie_2{
+  animation-name: moveLeft
+  ;
+  animation-duration: 4s;
+}
+@keyframes moveLeft{
+  0%{
+         transform: translateX(-120px);
+         opacity: 0;
+  }
+  100%{
+         transform: translateX(0);
+         opacity: 1;  
+  }
+}
+
+.home_animie_3{
+  animation-name: moveUp;
+  animation-duration: 4s;
+}
+@keyframes moveUp{
+  0%{
+         transform: translateY(120px);
+         opacity: 0;
+  }
+  100%{
+         transform: translateY(0);
+         opacity: 1;  
+  }
 }

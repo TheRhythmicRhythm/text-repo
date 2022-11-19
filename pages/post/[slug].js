@@ -6,6 +6,7 @@ import { getPosts, getPostDetails } from "../../services/index";
 import CommentForm from "../../components/CommentForm";
 import Comments from "../../components/Comments";
 import Loader from  "../../components/Loader";
+import FooterCard from "../../components/FooterCard";
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
@@ -31,6 +32,8 @@ const PostDetails = ({ post }) => {
           </div>
         </div>
       </div>
+
+      <FooterCard />
     </>
   );
 };

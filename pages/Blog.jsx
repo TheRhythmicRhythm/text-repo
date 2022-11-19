@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header } from "../components";
+import { FooterCard, Header } from "../components";
 import PostCard from "../components/PostCard";
 import { getPosts } from "../services/index";
 
@@ -18,6 +18,8 @@ export default function Blog({ posts }) {
             <PostCard key={post.title} post={post.node} />
           ))}
         </div>
+
+        <FooterCard />
 
         
       </div>

@@ -1,29 +1,52 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const HomeCard = () => {
   return (
     <div
       className="homecard flex flex-col items-center justify-center  max-w-2xl mx-auto"
-      id="home"
+      id="Home"
     >
-      <p className="text-xs">Hi, welcome my name is </p>
-      <h1 className="hero_text text-3xl sm:text-4xl lg:5xl text-center font-bold">
+      <p className="text-xs home_animie_1">Hi, welcome my name is </p>
+      <h1 className="hero_text text-3xl sm:text-4xl lg:5xl text-center font-bold home_animie_1">
         The Crypto Doyen{" "}
       </h1>
-      <h1 className="hero_text text-3xl sm:text-4xl lg:5xl text-center   font-bold">
+      <h1 className="hero_text text-3xl sm:text-4xl lg:5xl text-center font-bold home_animie_1">
         {" "}
-        I am a full-stack dev.
+        A Crypto Brand Influencer, Writer/Tutor 
       </h1>
-      <h3 className="text-center mt-3  text-base lg:text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+      <h3 className="text-center mt-3  text-base lg:text-lg home_animie_2">
+      Hi there, Welcome to the Crypto Doyen's Crib. All we do here is
+            centered on growth. Every Aspect of your life must Change for the
+            better.
+            This Place is a 'One-Man' quarters, I and the Holy Spirit, my one true partner
       </h3>
-      <button className="border px-4 items-center py-1 rounded-full border-yellow-600 mt-3">
-        {" "}
-        Work with me
-      </button>
+      <div className="flex gap-6 pb-5 home_animie_3">
+              <li>
+                <a href="#">
+                  <FaInstagram className="text-2xl cursor-pointer hover:text-pink-600" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaTwitter className="text-2xl cursor-pointer hover:text-blue-700" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+                </a>
+              </li>
+            </div>
     </div>
   );
 };

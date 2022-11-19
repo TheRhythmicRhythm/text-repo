@@ -5,7 +5,7 @@ const ContactCard = () => {
     <section className=" items-center justify-center max-w-2xl mx-auto p-5">
       <div
         className=" flex flex-col items-center justify-center max-w-2xl mx-auto mb-4"
-        id="home"
+        id="Contact"
       >
         <h1 className="text-3xl sm:text-4xl lg:text-5xl text-center font-bold text-gray-800">
           Contact Me
